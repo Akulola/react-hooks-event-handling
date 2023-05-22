@@ -14,7 +14,7 @@ function ChangeItUp() {
         placeholder="Enter search term..."
       />
 
-      <select name="filter" onChange={handleChange}>
+      <select name="filter" onChange={() =>handleChange}>
         <option value="all">Select a filter...</option>
         <option value="completed">Completed</option>
         <option value="incomplete">Incomplete</option>
